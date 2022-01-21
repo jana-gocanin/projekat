@@ -1,12 +1,12 @@
 {
   "name": "natours",
   "version": "1.0.0",
-  "description": "Landing page for natours",
+  "description": "Natours",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
-  "author": "Jonas",
+  "author": "EPOS",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.5.3"
