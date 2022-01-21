@@ -1,0 +1,22 @@
+{
+  "name": "projekat",
+  "version": "1.0.0",
+  "description": "projekat za epos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jana-gocanin/projekat.git"
+  },
+  "author": "epos tim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jana-gocanin/projekat/issues"
+  },
+  "homepage": "https://github.com/jana-gocanin/projekat#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
