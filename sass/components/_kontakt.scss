@@ -10,6 +10,11 @@
     justify-content: space-around;
     align-items: center;
 
+    @include respond(tab-port) {
+        flex-direction: column;
+        font-size: 1.2em;
+        align-items: center;
+    }
     
 }
 .map{
@@ -23,7 +28,20 @@
     position: relative;
     overflow: hidden;
 
+    @include respond(tab-land) {
+        width: 40%;
+        font-size: 1.5rem;
+    }
+
+    @include respond(tab-port){
+        font-size: 1.3rem;
+        width: 100%;
+    }
 }
 h1{
     border-bottom: 1px solid #5e052a41;
+
+    @include respond(tab-port){
+        font-size: 1.7em;
+    }
 }
